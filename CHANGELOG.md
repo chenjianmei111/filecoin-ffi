@@ -7,8 +7,8 @@ rust-fil-proofs improvements, which you can read about [here](https://github.com
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - add FauxRep to ffi package (#118) ([filecoin-project/filecoin-ffi#118](https://github.com/filecoin-project/filecoin-ffi/pull/118))
+- github.com/chenjianmei111/filecoin-ffi:
+  - add FauxRep to ffi package (#118) ([filecoin-project/filecoin-ffi#118](https://github.com/chenjianmei111/filecoin-ffi/pull/118))
 
 ### Contributors
 
@@ -24,9 +24,9 @@ function.
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - handle null pointer returned from fil_aggregate (#116) ([filecoin-project/filecoin-ffi#116](https://github.com/filecoin-project/filecoin-ffi/pull/116))
-  - 0.30.1 changelog (#114) ([filecoin-project/filecoin-ffi#114](https://github.com/filecoin-project/filecoin-ffi/pull/114))
+- github.com/chenjianmei111/filecoin-ffi:
+  - handle null pointer returned from fil_aggregate (#116) ([filecoin-project/filecoin-ffi#116](https://github.com/chenjianmei111/filecoin-ffi/pull/116))
+  - 0.30.1 changelog (#114) ([filecoin-project/filecoin-ffi#114](https://github.com/chenjianmei111/filecoin-ffi/pull/114))
 
 ### Contributors
 
@@ -43,12 +43,12 @@ updates (for the trusted setup participants).
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - update to rust-fil-proofs 4.0.2 (#113) ([filecoin-project/filecoin-ffi#113](https://github.com/filecoin-project/filecoin-ffi/pull/113))
-  - run the Rust tests before running the Go tests (#112) ([filecoin-project/filecoin-ffi#112](https://github.com/filecoin-project/filecoin-ffi/pull/112))
-  - Update master dependencies ([filecoin-project/filecoin-ffi#111](https://github.com/filecoin-project/filecoin-ffi/pull/111))
-  - update changelog for 0.30.0 release ([filecoin-project/filecoin-ffi#109](https://github.com/filecoin-project/filecoin-ffi/pull/109))
-- github.com/filecoin-project/specs-actors (v0.6.0 -> v0.6.1)
+- github.com/chenjianmei111/filecoin-ffi:
+  - update to rust-fil-proofs 4.0.2 (#113) ([filecoin-project/filecoin-ffi#113](https://github.com/chenjianmei111/filecoin-ffi/pull/113))
+  - run the Rust tests before running the Go tests (#112) ([filecoin-project/filecoin-ffi#112](https://github.com/chenjianmei111/filecoin-ffi/pull/112))
+  - Update master dependencies ([filecoin-project/filecoin-ffi#111](https://github.com/chenjianmei111/filecoin-ffi/pull/111))
+  - update changelog for 0.30.0 release ([filecoin-project/filecoin-ffi#109](https://github.com/chenjianmei111/filecoin-ffi/pull/109))
+- github.com/chenjianmei111/specs-actors (v0.6.0 -> v0.6.1)
 
 ### Contributors
 
@@ -67,11 +67,11 @@ two new types - one for seal and one for PoSt) and an update to rust-fil-proofs
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - update to rust-fil-proofs 4.0.0 (#108) ([filecoin-project/filecoin-ffi#108](https://github.com/filecoin-project/filecoin-ffi/pull/108))
-  - specs-actors v0.6 ([filecoin-project/filecoin-ffi#107](https://github.com/filecoin-project/filecoin-ffi/pull/107))
-  - changelog for 0.28.0, 0.28.1, and 0.29.0 (#106) ([filecoin-project/filecoin-ffi#106](https://github.com/filecoin-project/filecoin-ffi/pull/106))
-- github.com/filecoin-project/specs-actors (v0.5.4-0.20200521014528-0df536f7e461 -> v0.6.0)
+- github.com/chenjianmei111/filecoin-ffi:
+  - update to rust-fil-proofs 4.0.0 (#108) ([filecoin-project/filecoin-ffi#108](https://github.com/chenjianmei111/filecoin-ffi/pull/108))
+  - specs-actors v0.6 ([filecoin-project/filecoin-ffi#107](https://github.com/chenjianmei111/filecoin-ffi/pull/107))
+  - changelog for 0.28.0, 0.28.1, and 0.29.0 (#106) ([filecoin-project/filecoin-ffi#106](https://github.com/chenjianmei111/filecoin-ffi/pull/106))
+- github.com/chenjianmei111/specs-actors (v0.5.4-0.20200521014528-0df536f7e461 -> v0.6.0)
 
 ### Contributors
 
@@ -97,10 +97,10 @@ descriptor-leak, and (most importantly) updated to [v27 parameters and keys](htt
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - fix: update to filecoin-proofs-api v3.0.0 ([filecoin-project/filecoin-ffi#105](https://github.com/filecoin-project/filecoin-ffi/pull/105))
-  - explicitly close os.File to force release of file descriptor (#97) ([filecoin-project/filecoin-ffi#97](https://github.com/filecoin-project/filecoin-ffi/pull/97))
-  - fix: use stable 1.43.1 release ([filecoin-project/filecoin-ffi#102](https://github.com/filecoin-project/filecoin-ffi/pull/102))
+- github.com/chenjianmei111/filecoin-ffi:
+  - fix: update to filecoin-proofs-api v3.0.0 ([filecoin-project/filecoin-ffi#105](https://github.com/chenjianmei111/filecoin-ffi/pull/105))
+  - explicitly close os.File to force release of file descriptor (#97) ([filecoin-project/filecoin-ffi#97](https://github.com/chenjianmei111/filecoin-ffi/pull/97))
+  - fix: use stable 1.43.1 release ([filecoin-project/filecoin-ffi#102](https://github.com/chenjianmei111/filecoin-ffi/pull/102))
 
 ### Contributors
 
@@ -118,8 +118,8 @@ from crates.io instead of GitHub. No behavior changes.
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - fix: point to published filecoin-proofs-api crate ([filecoin-project/filecoin-ffi#104](https://github.com/filecoin-project/filecoin-ffi/pull/104))
+- github.com/chenjianmei111/filecoin-ffi:
+  - fix: point to published filecoin-proofs-api crate ([filecoin-project/filecoin-ffi#104](https://github.com/chenjianmei111/filecoin-ffi/pull/104))
 
 ### Contributors
 
@@ -135,9 +135,9 @@ merkle tree cache usage, [and more](https://github.com/filecoin-project/rust-fil
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - integrate rust-fil-proofs 2.0.0 release (#98) ([filecoin-project/filecoin-ffi#98](https://github.com/filecoin-project/filecoin-ffi/pull/98))
-  - release notes for 0.27.0 (#96) ([filecoin-project/filecoin-ffi#96](https://github.com/filecoin-project/filecoin-ffi/pull/96))
+- github.com/chenjianmei111/filecoin-ffi:
+  - integrate rust-fil-proofs 2.0.0 release (#98) ([filecoin-project/filecoin-ffi#98](https://github.com/chenjianmei111/filecoin-ffi/pull/98))
+  - release notes for 0.27.0 (#96) ([filecoin-project/filecoin-ffi#96](https://github.com/chenjianmei111/filecoin-ffi/pull/96))
 
 ### Contributors
 
@@ -156,29 +156,29 @@ This release migrates from specs-actors 0.4.1 to 0.5.4.
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - consume new abi.SealVerifyInfo structure (#89) ([filecoin-project/filecoin-ffi#89](https://github.com/filecoin-project/filecoin-ffi/pull/89))
-  - add changelog and changelog generator (#95) ([filecoin-project/filecoin-ffi#95](https://github.com/filecoin-project/filecoin-ffi/pull/95))
+- github.com/chenjianmei111/filecoin-ffi:
+  - consume new abi.SealVerifyInfo structure (#89) ([filecoin-project/filecoin-ffi#89](https://github.com/chenjianmei111/filecoin-ffi/pull/89))
+  - add changelog and changelog generator (#95) ([filecoin-project/filecoin-ffi#95](https://github.com/chenjianmei111/filecoin-ffi/pull/95))
 - github.com/filecoin-project/go-bitfield (v0.0.0-20200416002808-b3ee67ec9060 -> v0.0.1):
   - zero out bitfields during subtraction when they end up empty ([filecoin-project/go-bitfield#4](https://github.com/filecoin-project/go-bitfield/pull/4))
   - Create go.yml
-- github.com/filecoin-project/specs-actors (v0.4.1-0.20200509020627-3c96f54f3d7d -> v0.5.4-0.20200521014528-0df536f7e461):
-  - decouple SealVerifyInfo from OnChainSealVerifyInfo (and rename to SealVerifyParams) (#378) ([filecoin-project/specs-actors#378](https://github.com/filecoin-project/specs-actors/pull/378))
-  - add Unencodable Return method to puppet actor (#384) ([filecoin-project/specs-actors#384](https://github.com/filecoin-project/specs-actors/pull/384))
-  - call validate caller (#379) ([filecoin-project/specs-actors#379](https://github.com/filecoin-project/specs-actors/pull/379))
-  - handle last cron tick in market actor properly (#376) ([filecoin-project/specs-actors#376](https://github.com/filecoin-project/specs-actors/pull/376))
-  - stop puppet actor panic when sendreturn is nil (#375) ([filecoin-project/specs-actors#375](https://github.com/filecoin-project/specs-actors/pull/375))
-  - Change window post deadline duration to 1hr. (#373) ([filecoin-project/specs-actors#373](https://github.com/filecoin-project/specs-actors/pull/373))
-  - cbor-gen for reward actor state (#372) ([filecoin-project/specs-actors#372](https://github.com/filecoin-project/specs-actors/pull/372))
-  - Fractional network time (#367) ([filecoin-project/specs-actors#367](https://github.com/filecoin-project/specs-actors/pull/367))
-  - deps: go-bitfield v0.0.1 (#369) ([filecoin-project/specs-actors#369](https://github.com/filecoin-project/specs-actors/pull/369))
-  - update block reward target from KPI event, use that value to pay block rewards (#366) ([filecoin-project/specs-actors#366](https://github.com/filecoin-project/specs-actors/pull/366))
-  - Helpers and mocks for miner window post unit tests. (#354) ([filecoin-project/specs-actors#354](https://github.com/filecoin-project/specs-actors/pull/354))
-  - Change min miner power from 10TiB to 1TiB for testnet-2 (#368) ([filecoin-project/specs-actors#368](https://github.com/filecoin-project/specs-actors/pull/368))
-  - Remove incorrect assumption about window post proof slice (#361) ([filecoin-project/specs-actors#361](https://github.com/filecoin-project/specs-actors/pull/361))
-  - miner: Restrict supported proof types in miner ctor (#363) ([filecoin-project/specs-actors#363](https://github.com/filecoin-project/specs-actors/pull/363))
-  - dont include value in the error message for set errors (#365) ([filecoin-project/specs-actors#365](https://github.com/filecoin-project/specs-actors/pull/365))
-  - Fix nil verified deal weight (#360) ([filecoin-project/specs-actors#360](https://github.com/filecoin-project/specs-actors/pull/360))
+- github.com/chenjianmei111/specs-actors (v0.4.1-0.20200509020627-3c96f54f3d7d -> v0.5.4-0.20200521014528-0df536f7e461):
+  - decouple SealVerifyInfo from OnChainSealVerifyInfo (and rename to SealVerifyParams) (#378) ([filecoin-project/specs-actors#378](https://github.com/chenjianmei111/specs-actors/pull/378))
+  - add Unencodable Return method to puppet actor (#384) ([filecoin-project/specs-actors#384](https://github.com/chenjianmei111/specs-actors/pull/384))
+  - call validate caller (#379) ([filecoin-project/specs-actors#379](https://github.com/chenjianmei111/specs-actors/pull/379))
+  - handle last cron tick in market actor properly (#376) ([filecoin-project/specs-actors#376](https://github.com/chenjianmei111/specs-actors/pull/376))
+  - stop puppet actor panic when sendreturn is nil (#375) ([filecoin-project/specs-actors#375](https://github.com/chenjianmei111/specs-actors/pull/375))
+  - Change window post deadline duration to 1hr. (#373) ([filecoin-project/specs-actors#373](https://github.com/chenjianmei111/specs-actors/pull/373))
+  - cbor-gen for reward actor state (#372) ([filecoin-project/specs-actors#372](https://github.com/chenjianmei111/specs-actors/pull/372))
+  - Fractional network time (#367) ([filecoin-project/specs-actors#367](https://github.com/chenjianmei111/specs-actors/pull/367))
+  - deps: go-bitfield v0.0.1 (#369) ([filecoin-project/specs-actors#369](https://github.com/chenjianmei111/specs-actors/pull/369))
+  - update block reward target from KPI event, use that value to pay block rewards (#366) ([filecoin-project/specs-actors#366](https://github.com/chenjianmei111/specs-actors/pull/366))
+  - Helpers and mocks for miner window post unit tests. (#354) ([filecoin-project/specs-actors#354](https://github.com/chenjianmei111/specs-actors/pull/354))
+  - Change min miner power from 10TiB to 1TiB for testnet-2 (#368) ([filecoin-project/specs-actors#368](https://github.com/chenjianmei111/specs-actors/pull/368))
+  - Remove incorrect assumption about window post proof slice (#361) ([filecoin-project/specs-actors#361](https://github.com/chenjianmei111/specs-actors/pull/361))
+  - miner: Restrict supported proof types in miner ctor (#363) ([filecoin-project/specs-actors#363](https://github.com/chenjianmei111/specs-actors/pull/363))
+  - dont include value in the error message for set errors (#365) ([filecoin-project/specs-actors#365](https://github.com/chenjianmei111/specs-actors/pull/365))
+  - Fix nil verified deal weight (#360) ([filecoin-project/specs-actors#360](https://github.com/chenjianmei111/specs-actors/pull/360))
 
 ### Contributors
 
@@ -204,10 +204,10 @@ the CGO call returned).
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - don't let Go garbage collect FD until FFI call returns ([filecoin-project/filecoin-ffi#84](https://github.com/filecoin-project/filecoin-ffi/pull/84))
+- github.com/chenjianmei111/filecoin-ffi:
+  - don't let Go garbage collect FD until FFI call returns ([filecoin-project/filecoin-ffi#84](https://github.com/chenjianmei111/filecoin-ffi/pull/84))
   - fix: error if there is already a logger
-  - add winning PoSt for 64 GiB (#93) ([filecoin-project/filecoin-ffi#93](https://github.com/filecoin-project/filecoin-ffi/pull/93))
+  - add winning PoSt for 64 GiB (#93) ([filecoin-project/filecoin-ffi#93](https://github.com/chenjianmei111/filecoin-ffi/pull/93))
 
 ### Contributors
 
@@ -226,37 +226,37 @@ a single byte array) and various fixes for bellperson and neptune Rust crates.
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - Update deps revisited ([filecoin-project/filecoin-ffi#91](https://github.com/filecoin-project/filecoin-ffi/pull/91))
-  - newest upstream (#88) ([filecoin-project/filecoin-ffi#88](https://github.com/filecoin-project/filecoin-ffi/pull/88))
-  - update rust-filecoin-proofs-api to include PoSt fix (#87) ([filecoin-project/filecoin-ffi#87](https://github.com/filecoin-project/filecoin-ffi/pull/87))
-  - upgrade to specs-actors 0.4.1 (64GiB sector support) ([filecoin-project/filecoin-ffi#85](https://github.com/filecoin-project/filecoin-ffi/pull/85))
-  - Upgrade to specs-actors v0.3.0 (#81) ([filecoin-project/filecoin-ffi#81](https://github.com/filecoin-project/filecoin-ffi/pull/81))
+- github.com/chenjianmei111/filecoin-ffi:
+  - Update deps revisited ([filecoin-project/filecoin-ffi#91](https://github.com/chenjianmei111/filecoin-ffi/pull/91))
+  - newest upstream (#88) ([filecoin-project/filecoin-ffi#88](https://github.com/chenjianmei111/filecoin-ffi/pull/88))
+  - update rust-filecoin-proofs-api to include PoSt fix (#87) ([filecoin-project/filecoin-ffi#87](https://github.com/chenjianmei111/filecoin-ffi/pull/87))
+  - upgrade to specs-actors 0.4.1 (64GiB sector support) ([filecoin-project/filecoin-ffi#85](https://github.com/chenjianmei111/filecoin-ffi/pull/85))
+  - Upgrade to specs-actors v0.3.0 (#81) ([filecoin-project/filecoin-ffi#81](https://github.com/chenjianmei111/filecoin-ffi/pull/81))
 - github.com/filecoin-project/go-amt-ipld (v2.0.1-0.20200131012142-05d80eeccc5e -> v2.0.1-0.20200424220931-6263827e49f2):
   - implement method to get first index in amt ([filecoin-project/go-amt-ipld#11](https://github.com/filecoin-project/go-amt-ipld/pull/11))
   - implement ForEachAt method to support iteration starting at a given i… ([filecoin-project/go-amt-ipld#10](https://github.com/filecoin-project/go-amt-ipld/pull/10))
-- github.com/filecoin-project/specs-actors (v0.2.0 -> v0.4.1-0.20200509020627-3c96f54f3d7d):
-  - Minting function maintainability (#356) ([filecoin-project/specs-actors#356](https://github.com/filecoin-project/specs-actors/pull/356))
-  - support for 64GiB sectors (#355) ([filecoin-project/specs-actors#355](https://github.com/filecoin-project/specs-actors/pull/355))
-  - Temporary param update (#352) ([filecoin-project/specs-actors#352](https://github.com/filecoin-project/specs-actors/pull/352))
-  - document reward minting function tests (#348) ([filecoin-project/specs-actors#348](https://github.com/filecoin-project/specs-actors/pull/348))
-  - puppet type and method for failed marshal to cbor (#347) ([filecoin-project/specs-actors#347](https://github.com/filecoin-project/specs-actors/pull/347))
-  - Unit tests for prove commit sector (#351) ([filecoin-project/specs-actors#351](https://github.com/filecoin-project/specs-actors/pull/351))
-  - Fix failure to detect faults of exactly-full top partition (#350) ([filecoin-project/specs-actors#350](https://github.com/filecoin-project/specs-actors/pull/350))
-  - Fix checking of fault/recovery declaration deadlines (#349) ([filecoin-project/specs-actors#349](https://github.com/filecoin-project/specs-actors/pull/349))
-  - Set ConsensusMinerMinPower to 10TiB (#344) ([filecoin-project/specs-actors#344](https://github.com/filecoin-project/specs-actors/pull/344))
-  - improve deal accounting performance (#309) ([filecoin-project/specs-actors#309](https://github.com/filecoin-project/specs-actors/pull/309))
-  - DeadlineInfo handles expired proving period (#343) ([filecoin-project/specs-actors#343](https://github.com/filecoin-project/specs-actors/pull/343))
-  - document reward-minting taylorSeriesExpansion (#338) ([filecoin-project/specs-actors#338](https://github.com/filecoin-project/specs-actors/pull/338))
-  - implement puppet actor (#290) ([filecoin-project/specs-actors#290](https://github.com/filecoin-project/specs-actors/pull/290))
-  - Fix the 32GiB Window PoSt partition size again (#337) ([filecoin-project/specs-actors#337](https://github.com/filecoin-project/specs-actors/pull/337))
-  - Fix seal proof type in miner actor and parameterize WPoSt partition size by it (#336) ([filecoin-project/specs-actors#336](https://github.com/filecoin-project/specs-actors/pull/336))
-  - Change WPoStPartitionSectors to 2349 (#332) ([filecoin-project/specs-actors#332](https://github.com/filecoin-project/specs-actors/pull/332))
-  - Remove unused SectorSize from VerifyDealsOnSectorProveCommitParams (#328) ([filecoin-project/specs-actors#328](https://github.com/filecoin-project/specs-actors/pull/328))
-  - require success in reward actor send reward (#331) ([filecoin-project/specs-actors#331](https://github.com/filecoin-project/specs-actors/pull/331))
-  - Power actor CreateMiner passes on value received to new actor (#327) ([filecoin-project/specs-actors#327](https://github.com/filecoin-project/specs-actors/pull/327))
-  - Specify cron genesis entries (#326) ([filecoin-project/specs-actors#326](https://github.com/filecoin-project/specs-actors/pull/326))
-  - Remove SysErrInternal definition, use of which is always a bug (#304) ([filecoin-project/specs-actors#304](https://github.com/filecoin-project/specs-actors/pull/304))
+- github.com/chenjianmei111/specs-actors (v0.2.0 -> v0.4.1-0.20200509020627-3c96f54f3d7d):
+  - Minting function maintainability (#356) ([filecoin-project/specs-actors#356](https://github.com/chenjianmei111/specs-actors/pull/356))
+  - support for 64GiB sectors (#355) ([filecoin-project/specs-actors#355](https://github.com/chenjianmei111/specs-actors/pull/355))
+  - Temporary param update (#352) ([filecoin-project/specs-actors#352](https://github.com/chenjianmei111/specs-actors/pull/352))
+  - document reward minting function tests (#348) ([filecoin-project/specs-actors#348](https://github.com/chenjianmei111/specs-actors/pull/348))
+  - puppet type and method for failed marshal to cbor (#347) ([filecoin-project/specs-actors#347](https://github.com/chenjianmei111/specs-actors/pull/347))
+  - Unit tests for prove commit sector (#351) ([filecoin-project/specs-actors#351](https://github.com/chenjianmei111/specs-actors/pull/351))
+  - Fix failure to detect faults of exactly-full top partition (#350) ([filecoin-project/specs-actors#350](https://github.com/chenjianmei111/specs-actors/pull/350))
+  - Fix checking of fault/recovery declaration deadlines (#349) ([filecoin-project/specs-actors#349](https://github.com/chenjianmei111/specs-actors/pull/349))
+  - Set ConsensusMinerMinPower to 10TiB (#344) ([filecoin-project/specs-actors#344](https://github.com/chenjianmei111/specs-actors/pull/344))
+  - improve deal accounting performance (#309) ([filecoin-project/specs-actors#309](https://github.com/chenjianmei111/specs-actors/pull/309))
+  - DeadlineInfo handles expired proving period (#343) ([filecoin-project/specs-actors#343](https://github.com/chenjianmei111/specs-actors/pull/343))
+  - document reward-minting taylorSeriesExpansion (#338) ([filecoin-project/specs-actors#338](https://github.com/chenjianmei111/specs-actors/pull/338))
+  - implement puppet actor (#290) ([filecoin-project/specs-actors#290](https://github.com/chenjianmei111/specs-actors/pull/290))
+  - Fix the 32GiB Window PoSt partition size again (#337) ([filecoin-project/specs-actors#337](https://github.com/chenjianmei111/specs-actors/pull/337))
+  - Fix seal proof type in miner actor and parameterize WPoSt partition size by it (#336) ([filecoin-project/specs-actors#336](https://github.com/chenjianmei111/specs-actors/pull/336))
+  - Change WPoStPartitionSectors to 2349 (#332) ([filecoin-project/specs-actors#332](https://github.com/chenjianmei111/specs-actors/pull/332))
+  - Remove unused SectorSize from VerifyDealsOnSectorProveCommitParams (#328) ([filecoin-project/specs-actors#328](https://github.com/chenjianmei111/specs-actors/pull/328))
+  - require success in reward actor send reward (#331) ([filecoin-project/specs-actors#331](https://github.com/chenjianmei111/specs-actors/pull/331))
+  - Power actor CreateMiner passes on value received to new actor (#327) ([filecoin-project/specs-actors#327](https://github.com/chenjianmei111/specs-actors/pull/327))
+  - Specify cron genesis entries (#326) ([filecoin-project/specs-actors#326](https://github.com/chenjianmei111/specs-actors/pull/326))
+  - Remove SysErrInternal definition, use of which is always a bug (#304) ([filecoin-project/specs-actors#304](https://github.com/chenjianmei111/specs-actors/pull/304))
 
 ### Contributors
 
@@ -281,9 +281,9 @@ previously sharing Go memory with C, resulting in some errors when running with
 
 ### Changelog
 
-- github.com/filecoin-project/filecoin-ffi:
-  - update to v26 Groth parameters (#83) ([filecoin-project/filecoin-ffi#83](https://github.com/filecoin-project/filecoin-ffi/pull/83))
-  - handle allocations for problematic structs to avoid sharing pointers-to-pointers with C (from Go) (#82) ([filecoin-project/filecoin-ffi#82](https://github.com/filecoin-project/filecoin-ffi/pull/82))
+- github.com/chenjianmei111/filecoin-ffi:
+  - update to v26 Groth parameters (#83) ([filecoin-project/filecoin-ffi#83](https://github.com/chenjianmei111/filecoin-ffi/pull/83))
+  - handle allocations for problematic structs to avoid sharing pointers-to-pointers with C (from Go) (#82) ([filecoin-project/filecoin-ffi#82](https://github.com/chenjianmei111/filecoin-ffi/pull/82))
 
 ### Contributors
 

@@ -42,7 +42,7 @@ jobs:
         type: boolean
         default: false
     executor: golang
-    working_directory: ~/go/src/github.com/filecoin-project/filecoin-ffi
+    working_directory: ~/go/src/github.com/chenjianmei111/filecoin-ffi
     steps:
       - configure_environment_variables
       - prepare
@@ -59,7 +59,7 @@ jobs:
         type: boolean
         default: false
     executor: golang
-    working_directory: ~/go/src/github.com/filecoin-project/filecoin-ffi
+    working_directory: ~/go/src/github.com/chenjianmei111/filecoin-ffi
     steps:
       - configure_environment_variables
       - prepare
@@ -74,7 +74,7 @@ jobs:
   build_darwin_cgo_bindings:
     macos:
       xcode: "10.0.0"
-    working_directory: ~/go/src/github.com/filecoin-project/filecoin-ffi
+    working_directory: ~/go/src/github.com/chenjianmei111/filecoin-ffi
     resource_class: large
     steps:
       - configure_environment_variables:

@@ -3,9 +3,9 @@
 package ffi
 
 import (
-	"github.com/filecoin-project/filecoin-ffi/generated"
+	"github.com/chenjianmei111/filecoin-ffi/generated"
 	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/specs-actors/actors/runtime/proof"
+	"github.com/chenjianmei111/specs-actors/actors/runtime/proof"
 	"github.com/pkg/errors"
 )
 

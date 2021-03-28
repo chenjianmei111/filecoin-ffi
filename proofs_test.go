@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/filecoin-project/filecoin-ffi/generated"
+	"github.com/chenjianmei111/filecoin-ffi/generated"
 
 	"github.com/stretchr/testify/assert"
 

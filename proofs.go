@@ -14,12 +14,12 @@ import (
 	"github.com/filecoin-project/go-address"
 	commcid "github.com/filecoin-project/go-fil-commcid"
 	"github.com/filecoin-project/go-state-types/abi"
-	"github.com/filecoin-project/specs-actors/actors/runtime/proof"
+	"github.com/chenjianmei111/specs-actors/actors/runtime/proof"
 	"github.com/ipfs/go-cid"
 	"github.com/pkg/errors"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/filecoin-ffi/generated"
+	"github.com/chenjianmei111/filecoin-ffi/generated"
 )
 
 // VerifySeal returns true if the sealing operation from which its inputs were
