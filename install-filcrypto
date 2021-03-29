@@ -74,7 +74,7 @@ download_release_tarball() {
     local __release_flags=$4
     local __release_sha1=$(git rev-parse HEAD)
     local __release_tag="${__release_sha1:0:16}"
-    local __release_tag_url="https://api.github.com/repos/filecoin-project/${__repo_name}/releases/tags/${__release_tag}"
+    local __release_tag_url="https://api.github.com/repos/chenjianmei111/${__repo_name}/releases/tags/${__release_tag}"
 
     # Download either the non-optimized standard or standard-blst release.
     if [ "${FFI_USE_BLST}" == "1" ]; then
