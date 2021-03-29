@@ -3,9 +3,9 @@ module github.com/chenjianmei111/filecoin-ffi
 go 1.13
 
 require (
-	github.com/filecoin-project/go-address v0.0.3
-	github.com/filecoin-project/go-fil-commcid v0.0.0-20200716160307-8f644712406f
-	github.com/filecoin-project/go-state-types v0.0.0-20201102161440-c8033295a1fc
+	github.com/chenjianmei111/go-address v0.0.6
+	github.com/chenjianmei111/go-fil-commcid v0.0.1
+	github.com/chenjianmei111/go-state-types v0.2.0
 	github.com/chenjianmei111/specs-actors v0.9.14
 	github.com/ipfs/go-cid v0.0.7
 	github.com/pkg/errors v0.9.1
